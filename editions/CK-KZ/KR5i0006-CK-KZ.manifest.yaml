@@ -1,0 +1,49 @@
+canonical_identifier: bkk:krp/KR5i0006/CK-KZ/v1
+canonical_location: https://kanripo.org/bkk/KR5i0006/CK-KZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上道德寶章翼
+  date: '2015-08-29 17:48:15.796337'
+  source:
+    repository: kanripo
+    path: KR5i0006
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: CK-KZ
+    label: 【重刊道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0006_001-CK-KZ.yaml, hash: 'sha256:37c2e1d868e0d6a75f2077f25bc4c02d30ba6ac6da2f339b6ea0357fc63665e0'}
+  - {seq: 2, filename: KR5i0006_002-CK-KZ.yaml, hash: 'sha256:b0497eea1f982e8b2fd26703937e67b71bc1e4898f91dc2ad9d56d4e134c90b8'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0006_001-CK-KZ.markers.yaml, hash: 'sha256:41efa0daa621ee0ef30fef8f1afa07e1014379f226fbfd3db794b6ec9ab007c3'}
+  - {seq: 2, role: markers, filename: assets/KR5i0006_002-CK-KZ.markers.yaml, hash: 'sha256:ec5d1366dbfde607909ef8b413f380c8c77388f3a58e60548208a74f36b729f9'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: CK-KZ_KR5i0006_01p001a
+    span:
+    - body
+    - 0
+    - 24618
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: CK-KZ_KR5i0006_02p001a
+    span:
+    - body
+    - 0
+    - 30819
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:1ed1a845a0471beeb4d8fe18eccdb27fdf9ebf8a45821ec8ab2e9db616b55e35
